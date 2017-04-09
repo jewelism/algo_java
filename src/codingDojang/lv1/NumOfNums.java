@@ -17,6 +17,7 @@ import java.util.Arrays;
  */
 public class NumOfNums {
     public static void main(String[] args) {
+
         int[] list = new int[10]; //결과를 저장할 배열 10개 선언
         for(int i=1; i<=1000; i++){
             String snum = String.valueOf(i); //int를 String 으로 변환
