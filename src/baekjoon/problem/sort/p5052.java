@@ -74,7 +74,6 @@ public class p5052 {
                     System.out.println(tmp1+"/"+tmp2);
                     return "NO";
                 }
-
             }
         }
         return "YES";
