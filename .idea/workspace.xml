@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5817066c-950d-4bba-9b4d-8abc84f6cea7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/baekjoon/problem/dp/p14501.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/baekjoon/problem/dp/p6359.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/baekjoon/problem/dp/p9095.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/sort/List.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/sort/p2989.class" afterPath="$PROJECT_DIR$/bin/baekjoon/problem/sort/p2989.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/sort/p5052.class" afterPath="$PROJECT_DIR$/bin/baekjoon/problem/sort/p5052.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/baekjoon/problem/p1149.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chobo/P_ForEx1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/dp/p14501.class" afterPath="$PROJECT_DIR$/bin/baekjoon/problem/dp/p14501.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/baekjoon/problem/sort/p2989.java" afterPath="$PROJECT_DIR$/src/baekjoon/problem/sort/p2989.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/baekjoon/problem/sort/p5052.java" afterPath="$PROJECT_DIR$/src/baekjoon/problem/sort/p5052.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="p6359.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/dp/p6359.java">
+      <file leaf-file-name="p1149.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/p1149.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            <state relative-caret-position="313">
+              <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,9 +70,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Flower</find>
+      <find>house</find>
     </findStrings>
     <replaceStrings>
       <replace>List</replace>
+      <replace>arr</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -108,6 +105,8 @@
         <option value="$PROJECT_DIR$/src/baekjoon/problem/dp/p9095.java" />
         <option value="$PROJECT_DIR$/src/baekjoon/problem/dp/p6359.java" />
         <option value="$PROJECT_DIR$/src/baekjoon/problem/dp/p14501.java" />
+        <option value="$PROJECT_DIR$/src/chobo/P_ForEx1.java" />
+        <option value="$PROJECT_DIR$/src/baekjoon/problem/p1149.java" />
       </list>
     </option>
   </component>
@@ -184,32 +183,6 @@
               <option name="myItemId" value="problem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="problem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -240,47 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.p14501">
-    <configuration default="false" name="p2989" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.problem.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="baekjoon.problem.sort.p2989" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PracticeJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="p5052" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.problem.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="baekjoon.problem.sort.p5052" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PracticeJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.p1149">
     <configuration default="false" name="p9095" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -329,6 +262,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="baekjoon.problem.dp.p14501" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PracticeJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="p1149" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="baekjoon.problem.p1149" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PracticeJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="P_ForEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="chobo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="chobo.P_ForEx1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -893,19 +866,19 @@
       <item index="0" class="java.lang.String" itemvalue="Application.CamelCase" />
       <item index="1" class="java.lang.String" itemvalue="Application.Pagination" />
       <item index="2" class="java.lang.String" itemvalue="Application.PerfectNumber" />
-      <item index="3" class="java.lang.String" itemvalue="Application.p2989" />
-      <item index="4" class="java.lang.String" itemvalue="Application.p5052" />
-      <item index="5" class="java.lang.String" itemvalue="Application.p9095" />
-      <item index="6" class="java.lang.String" itemvalue="Application.p6359" />
-      <item index="7" class="java.lang.String" itemvalue="Application.p14501" />
+      <item index="3" class="java.lang.String" itemvalue="Application.p9095" />
+      <item index="4" class="java.lang.String" itemvalue="Application.p6359" />
+      <item index="5" class="java.lang.String" itemvalue="Application.p14501" />
+      <item index="6" class="java.lang.String" itemvalue="Application.p1149" />
+      <item index="7" class="java.lang.String" itemvalue="Application.P_ForEx1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.p14501" />
-        <item index="1" class="java.lang.String" itemvalue="Application.p6359" />
-        <item index="2" class="java.lang.String" itemvalue="Application.p9095" />
-        <item index="3" class="java.lang.String" itemvalue="Application.p2989" />
-        <item index="4" class="java.lang.String" itemvalue="Application.p5052" />
+        <item index="0" class="java.lang.String" itemvalue="Application.p1149" />
+        <item index="1" class="java.lang.String" itemvalue="Application.P_ForEx1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.p14501" />
+        <item index="3" class="java.lang.String" itemvalue="Application.p6359" />
+        <item index="4" class="java.lang.String" itemvalue="Application.p9095" />
       </list>
     </recent_temporary>
   </component>
@@ -944,12 +917,12 @@
       <workItem from="1492260994552" duration="3294000" />
       <workItem from="1492486529956" duration="763000" />
       <workItem from="1492575186873" duration="6700000" />
-      <workItem from="1492673639758" duration="1852000" />
+      <workItem from="1492673639758" duration="12565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69146000" />
+    <option name="totallyTimeSpent" value="79859000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -962,11 +935,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="954" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -991,7 +964,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1006,7 +978,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1014,22 +988,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/sort/p2989.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/sort/p2989.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="79" column="24" lean-forward="false" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/sort/p2989.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -1350,7 +1308,7 @@
         <state relative-caret-position="17">
           <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1371,6 +1329,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chobo/P_ForEx1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/dp/p14501.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1383,8 +1349,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/dp/p6359.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="238">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/p1149.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
