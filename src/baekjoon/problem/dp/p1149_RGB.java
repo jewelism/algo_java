@@ -1,4 +1,4 @@
-package baekjoon.problem;
+package baekjoon.problem.dp;
 
 import javafx.scene.effect.Blend;
 
@@ -33,7 +33,7 @@ import java.util.Scanner;
  * <p>
  * 96
  */
-public class p1149 {
+public class p1149_RGB {
     public static final int RED = 0;
     public static final int GREEN = 1;
     public static final int BLUE = 2;

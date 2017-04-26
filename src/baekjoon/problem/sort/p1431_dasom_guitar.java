@@ -44,7 +44,7 @@ import java.util.Scanner;
  A910
  **
  */
-public class p1431 {
+public class p1431_dasom_guitar {
     public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        System.out.print("기타의 갯수를 입력하세요 : ");

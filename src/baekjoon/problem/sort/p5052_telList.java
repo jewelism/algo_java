@@ -42,7 +42,7 @@ import java.util.Arrays;
  NO
  YES
  */
-public class p5052 {
+public class p5052_telList {
     public static void main(String[] args) {
         int t = 2;
         int n = 3;

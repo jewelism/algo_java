@@ -58,7 +58,7 @@ import java.util.Scanner;
  2 3
  3 3
  */
-public class p2989 {
+public class p2989_frog_wang {
     public static void main(String[] args) {
         int i = 0;
         for(i=0; i<10; i++){

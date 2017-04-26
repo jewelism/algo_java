@@ -38,7 +38,7 @@ import java.util.Scanner;
  첫째 줄에 백준이가 얻을 수 있는 최대 이익을 출력한다.
  
  */
-public class p14501 {
+public class p14501_retire {
     public static void main(String[] args) {
         
         Scanner scan = new Scanner(System.in);

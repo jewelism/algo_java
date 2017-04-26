@@ -36,7 +36,7 @@ import java.util.Scanner;
  274
 
  */
-public class p9095 {
+public class p9095_123plus {
     public static void main(String[] args) {
         final int MAX = 11;
         int[] answer = new int[MAX];

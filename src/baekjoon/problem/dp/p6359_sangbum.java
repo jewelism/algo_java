@@ -32,7 +32,7 @@ import java.util.Scanner;
  * 2
  * 10
  */
-public class p6359 {
+public class p6359_sangbum {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int T = scan.nextInt();
