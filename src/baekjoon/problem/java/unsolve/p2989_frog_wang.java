@@ -1,7 +1,4 @@
-package baekjoon.problem.sort;
-
-import java.util.Arrays;
-import java.util.Scanner;
+package baekjoon.problem.java.unsolve;
 
 /**
  * Created by kusob on 2017. 4. 8..

@@ -1,6 +1,4 @@
-package baekjoon.problem.sort;
-
-import java.util.Arrays;
+package baekjoon.problem.java.sort;
 
 /**
  * Created by kusob on 2017. 4. 8..

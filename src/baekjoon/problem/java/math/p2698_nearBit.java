@@ -1,28 +1,27 @@
-package baekjoon.problem.math;
-
-import java.util.ArrayList;
+package baekjoon.problem.java.math;
 
 /**
  * Created by kusob on 2017. 4. 24..
  */
 public class p2698_nearBit {
     public static void main(String[] args) {
-        int n = 5;
-        int k = 2;
+        
+        int n = 20;
+        int k = 17;
         int cnt = 0;
         
         for (int i = 1; i <= gop(n); i++) {
-            String[] tmpList = Integer.toBinaryString(i).split("0");
             int tmp = 0;
+            String[] tmpList = Integer.toBinaryString(i).split("0");
             for (int j = 0; j < tmpList.length; j++) {
-                if(tmpList[j]!=null) {
+                if(tmpList[j]!=null||!tmpList[j].equals("")||tmpList[j].length()!=0) {
 //                    System.out.println("list:"+i+" "+tmpList[j]);
 //                    System.out.println(tmpList[j].length() - 1);
                     tmp += tmpList[j].length() - 1;
                 }
             }
             if(tmp==k) {
-//                System.out.println(i);
+                //System.out.println(i);
                 cnt++;
             }
         }

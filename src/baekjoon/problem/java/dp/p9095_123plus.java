@@ -1,6 +1,5 @@
-package baekjoon.problem.dp;
+package baekjoon.problem.java.dp;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**

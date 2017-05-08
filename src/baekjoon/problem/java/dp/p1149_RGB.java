@@ -1,8 +1,5 @@
-package baekjoon.problem.dp;
+package baekjoon.problem.java.dp;
 
-import javafx.scene.effect.Blend;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
