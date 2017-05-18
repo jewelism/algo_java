@@ -1,6 +1,7 @@
 package baekjoon.problem.java.math;
 
 
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -54,44 +55,102 @@ import java.util.Stack;
  * -
  */
 public class p1874_stackSequence {
-    
-    static int status;
+    public static void main(String arg[]){
+        Scanner input = new Scanner(System.in);
 
-    public static void main(String[] args) {
-        
-        status = 1;
-        Stack stack = new Stack();
-        Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
-        for(int i=1; i<=n; i++){
-            stack.push(i);
-        }
-        int[] input = new int[n];
-        for (int i = 0; i < n; i++) {
-            input[i] = scan.nextInt();
+        int N = input.nextInt(); //사이즈 입력
+
+        Stack<Integer> stack = new Stack<Integer>();
+        StringBuilder sb = new StringBuilder(); //+,- 결과 저장할 변수
+        int seq[] = new int[N]; //입력될 수열 저장할 변수
+
+        for(int i=0;i<N;i++){
+            seq[i] = input.nextInt();
         }
 
-        for (int i = 0; i < n; i++) {
-            if(input[i]>n){
-                no();
+        int number = 1; //1~N 숫자
+        int pointer = 0; //수열의 비교할 index
+
+        while(pointer!=N && number!=N+2){ //number가 N+1일 경우 나머지 작업은 모두 pop이어야 함.
+            if(!stack.isEmpty()){ //스택이 비지않은경우
+                if(stack.peek() == seq[pointer]){ //스택젤상단과 수열이 일치하는경우
+                    stack.pop(); //스택에서 꺼낸다
+                    pointer++;//다음수열
+                    sb.append("-\n"); //-출력
+                }else{
+                    stack.push(number);
+                    number++;
+                    sb.append("+\n");
+                }
+            }else{ //스택이 빈경우
+                stack.push(number);
+                number++;
+                sb.append("+\n");
             }
-            System.out.println("input:"+input[i]+" status:"+status);
-            if (input[i] > status) {
-                for(int j=status; j<=input[i]; j++){
-                    stack.push(j);
-                    status++;
-                    System.out.println("+");
-                }
-            } else if (input[i] < status) {
-                for(int j=status; j>input[i]; j--){
-                    stack.pop();
-                    status--;
-                    System.out.println("-");
-                }
-            } 
         }
+        if(pointer==N)
+            System.out.println(sb.toString()); //출력
+        else
+            System.out.println("NO");
     }
-    public static void no() {
-        System.out.println("NO");
-    }
+//    static int status;
+//
+//    public static void main(String[] args) {
+//
+//        status = 1;
+//        Stack stack = new Stack();
+//        Scanner scan = new Scanner(System.in);
+//        
+//        int n = scan.nextInt();
+//        ArrayList<Integer> list = new ArrayList<Integer>();
+//        int[] input = new int[n+1];
+//        for (int i = 1; i <= n; i++) {
+//            list.add(i);
+//            input[i] = scan.nextInt();
+//        }
+//        
+//        for(int i=1; i<=n; i++){
+//            if (input[i] > n) {
+//                System.out.println("NO");
+//                return ;
+//            }
+//            System.out.println(status);
+//            if(status<input[i]){
+//                for(int j=status; j<=input[i]; j++){ //1~4
+//                    stack.push(j);
+//                    status++;
+//                    System.out.println("+");
+//                }
+//                stack.pop();
+//            } else {
+//                for(int j=status-1; j>=input[i]; j--){
+//                    stack.pop();
+//                    status--;
+//                    System.out.println("-");
+//                }
+//            }
+//            
+//        }
+
+        
+//        for (int i = 0; i < n; i++) {
+//            if (input[i] > n) {
+//                no();
+//            }
+//            System.out.println("input:" + input[i] + " status:" + status);
+//            if (input[i] > status) {
+//                for (int j = status; j <= input[i]; j++) {
+//                    stack.push(j);
+//                    status++;
+//                    System.out.println("+");
+//                }
+//            } else if (input[i] < status) {
+//                for (int j = status; j > input[i]; j--) {
+//                    stack.pop();
+//                    status--;
+//                    System.out.println("-");
+//                }
+//            }
+//        }
+//    }
 }
