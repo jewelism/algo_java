@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5817066c-950d-4bba-9b4d-8abc84f6cea7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/baekjoon/problem/java/dp/p3067_coins.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/dp/p1149_RGB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/dp/p14501_retire.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/dp/p2163_cutChoco.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/dp/p6359_sangbum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/dp/p9095_123plus.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/math/p1874_stackSequence.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/math/p2698_nearBit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/sort/p1431_dasom_guitar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/sort/p5052_telList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/unsolve/p11722_decreaseSequence_UNSOLVE.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/baekjoon/problem/unsolve/p2989_frog_wang.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/baekjoon/problem/java/math/p1110_add_cycle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/baekjoon/problem/java/sort/p2750.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/baekjoon/problem/java/math/p1874_stackSequence.java" afterPath="$PROJECT_DIR$/src/baekjoon/problem/java/math/p1874_stackSequence.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +44,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p3067_coins.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p3067_coins.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/java/dp/p3067_coins.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+            <state relative-caret-position="238">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p1110_add_cycle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/java/math/p1110_add_cycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p2750.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/java/sort/p2750.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,6 +150,8 @@
         <option value="$PROJECT_DIR$/src/baekjoon/problem/python/p1874.py" />
         <option value="$PROJECT_DIR$/src/baekjoon/problem/java/math/p1874_stackSequence.java" />
         <option value="$PROJECT_DIR$/src/baekjoon/problem/java/dp/p3067_coins.java" />
+        <option value="$PROJECT_DIR$/src/baekjoon/problem/java/math/p1110_add_cycle.java" />
+        <option value="$PROJECT_DIR$/src/baekjoon/problem/java/sort/p2750.java" />
       </list>
     </option>
   </component>
@@ -289,9 +300,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,47 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.p3067_coins">
-    <configuration default="false" name="p2698_nearBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.problem.java.math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="baekjoon.problem.java.math.p2698_nearBit" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PracticeJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="p11722_decreaseSequence_UNSOLVE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.problem.java.unsolve.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="baekjoon.problem.java.unsolve.p11722_decreaseSequence_UNSOLVE" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PracticeJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.p2750">
     <configuration default="false" name="p1874_stackSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -405,6 +376,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="baekjoon.problem.java.dp.p3067_coins" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PracticeJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="p1110_add_cycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.problem.java.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="baekjoon.problem.java.math.p1110_add_cycle" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PracticeJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="p2750" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.problem.java.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="baekjoon.problem.java.sort.p2750" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -969,19 +980,19 @@
       <item index="0" class="java.lang.String" itemvalue="Application.CamelCase" />
       <item index="1" class="java.lang.String" itemvalue="Application.Pagination" />
       <item index="2" class="java.lang.String" itemvalue="Application.PerfectNumber" />
-      <item index="3" class="java.lang.String" itemvalue="Application.p2698_nearBit" />
-      <item index="4" class="java.lang.String" itemvalue="Application.p11722_decreaseSequence_UNSOLVE" />
-      <item index="5" class="java.lang.String" itemvalue="Application.p1874_stackSequence" />
-      <item index="6" class="java.lang.String" itemvalue="Python.p1874" />
-      <item index="7" class="java.lang.String" itemvalue="Application.p3067_coins" />
+      <item index="3" class="java.lang.String" itemvalue="Application.p1874_stackSequence" />
+      <item index="4" class="java.lang.String" itemvalue="Python.p1874" />
+      <item index="5" class="java.lang.String" itemvalue="Application.p3067_coins" />
+      <item index="6" class="java.lang.String" itemvalue="Application.p1110_add_cycle" />
+      <item index="7" class="java.lang.String" itemvalue="Application.p2750" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.p3067_coins" />
-        <item index="1" class="java.lang.String" itemvalue="Application.p1874_stackSequence" />
-        <item index="2" class="java.lang.String" itemvalue="Python.p1874" />
-        <item index="3" class="java.lang.String" itemvalue="Application.p11722_decreaseSequence_UNSOLVE" />
-        <item index="4" class="java.lang.String" itemvalue="Application.p2698_nearBit" />
+        <item index="0" class="java.lang.String" itemvalue="Application.p2750" />
+        <item index="1" class="java.lang.String" itemvalue="Application.p1110_add_cycle" />
+        <item index="2" class="java.lang.String" itemvalue="Application.p3067_coins" />
+        <item index="3" class="java.lang.String" itemvalue="Application.p1874_stackSequence" />
+        <item index="4" class="java.lang.String" itemvalue="Python.p1874" />
       </list>
     </recent_temporary>
   </component>
@@ -1044,12 +1055,14 @@
       <workItem from="1494579542511" duration="688000" />
       <workItem from="1494752466283" duration="2598000" />
       <workItem from="1494842134328" duration="3787000" />
-      <workItem from="1494919493353" duration="363000" />
+      <workItem from="1494919493353" duration="505000" />
+      <workItem from="1495779747164" duration="3237000" />
+      <workItem from="1497771653285" duration="205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120474000" />
+    <option name="totallyTimeSpent" value="124058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1062,7 +1075,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1534" height="928" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1136,20 +1148,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/codingDojang/lv1/NumOfNums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codingDojang/lv1/DecompositionNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/codingDojang/lv1/NumOfNums.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1493,8 +1491,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/java/dp/p3067_coins.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/java/math/p1110_add_cycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekjoon/problem/java/sort/p2750.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
